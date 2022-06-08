@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "shipName": "Mercury Nav",
+        "owner": "9828aks...12389",
+        "img": "https://raw.githubusercontent.com/danvinicius/spacefy/main/src/assets/ships/ship2.png",
+        "level": 5,
+        "usprice": 14.82,
+        "spfy": 1499
+    },
+    {
+        "id": 2,
+        "shipName": "Yellow Nav",
+        "owner": "9828aks...12389",
+        "img": "https://raw.githubusercontent.com/danvinicius/spacefy/main/src/assets/ships/ship3.png",
+        "level": 4,
+        "usprice": 14.12,
+        "spfy": 1102
+    },
+    {
+        "id": 3,
+        "shipName": "Ocean Blue Nav",
+        "owner": "9828aks...12389",
+        "img": "https://raw.githubusercontent.com/danvinicius/spacefy/main/src/assets/ships/ship4.png",
+        "level": 1,
+        "usprice": 4.86,
+        "spfy": 0.281
+    },
+    {
+        "id": 4,
+        "shipName": "Graypi Nav",
+        "owner": "9828aks...12389",
+        "img": "https://raw.githubusercontent.com/danvinicius/spacefy/main/src/assets/ships/ship5.png",
+        "level": 5,
+        "usprice": 15.28,
+        "spfy": 1810
+    },
+    {
+        "id": 5,
+        "shipName": "Cyapi Nav",
+        "owner": "9828aks...12389",
+        "img": "https://raw.githubusercontent.com/danvinicius/spacefy/main/src/assets/ships/ship1.png",
+        "level": 5,
+        "usprice": 20.18,
+        "spfy": 2201
+    }
+
+]
