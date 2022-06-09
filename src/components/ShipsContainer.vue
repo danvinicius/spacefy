@@ -8,7 +8,8 @@
           :img="ship.img" 
           :level="ship.level" 
           :usprice="ship.usprice" 
-          :spfy="ship.spfy"/>
+          :spfy="ship.spfy"
+          :rarity="ship.rarity"/>
         </div>
       </div>
   </div>

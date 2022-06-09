@@ -6,7 +6,8 @@
         "img": "https://raw.githubusercontent.com/danvinicius/spacefy/main/src/assets/ships/ship2.png",
         "level": 5,
         "usprice": 14.82,
-        "spfy": 1499
+        "spfy": 1499,
+        "rarity": false
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "img": "https://raw.githubusercontent.com/danvinicius/spacefy/main/src/assets/ships/ship3.png",
         "level": 4,
         "usprice": 14.12,
-        "spfy": 1102
+        "spfy": 1102,
+        "rarity": false
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "img": "https://raw.githubusercontent.com/danvinicius/spacefy/main/src/assets/ships/ship4.png",
         "level": 1,
         "usprice": 4.86,
-        "spfy": 0.281
+        "spfy": 0.281,
+        "rarity": false
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "img": "https://raw.githubusercontent.com/danvinicius/spacefy/main/src/assets/ships/ship5.png",
         "level": 5,
         "usprice": 15.28,
-        "spfy": 1810
+        "spfy": 1810,
+        "rarity": false
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@
         "img": "https://raw.githubusercontent.com/danvinicius/spacefy/main/src/assets/ships/ship1.png",
         "level": 5,
         "usprice": 20.18,
-        "spfy": 2201
+        "spfy": 2201,
+        "rarity": true
     }
 
 ]

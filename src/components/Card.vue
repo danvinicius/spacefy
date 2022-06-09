@@ -1,6 +1,13 @@
 <template>
   <div class="card-container">
+      <div class="title">
           <h3>{{shipName}}</h3>
+          <div v-if="rarity" class="rarity">
+              <span></span>
+            <p>Rarity Item</p>
+          </div>
+      </div>
+          
           <p id="owner">Owner: {{owner}}</p>
           <div class="card">
             <div class="upper-container">
@@ -29,7 +36,8 @@ export default {
         img: String,
         level: Number,
         usprice: Number,
-        spfy: Number
+        spfy: Number,
+        rarity: Boolean
     },
     filters: {
         useComma: function(number) {
@@ -75,7 +83,6 @@ h3 {
     margin-bottom: 15px;
     text-transform: uppercase;
     position: relative;
-
 }
 
 h3::after, h3::before {
@@ -93,6 +100,48 @@ h3::after {
 
 h3::before {
     bottom: -10px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title .rarity p {
+    text-align: left;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.rarity {
+    display: flex;
+    align-items: center;
+}
+
+.rarity span {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid transparent;
+    border-top-color: rgb(139, 146, 247);
+    border-left-color: rgb(139, 146, 247);
+    transform: rotate(45deg);
+    margin-right: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.rarity span::before {
+    content: '';
+    width: 3px;
+    height: 3px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    background: rgb(139, 146, 247);
+    box-shadow: 0 0 3px rgb(139, 146, 247);
 }
 
 .level-container {
