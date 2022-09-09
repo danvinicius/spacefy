@@ -11,7 +11,7 @@ Simple page built in VueJS for a technical test, simulating a marketplace of spa
 
 ## Project status
 <h4> 
-	🚧 Finished 🚧
+	✔️ Finished ✔️
 </h4>
 <br/>
 
