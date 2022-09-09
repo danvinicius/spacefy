@@ -1,7 +1,7 @@
 # Spacefy
 
 ## About
-Simple page built IN VueJS for a technical test, simulating a marketplace of spaceship NFT's. 
+Simple page built in VueJS for a technical test, simulating a marketplace of spaceship NFT's. 
 <br/>
 
 <div style="display: inline_block"><br>
